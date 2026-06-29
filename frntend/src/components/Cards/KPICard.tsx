@@ -52,7 +52,7 @@ export const KPICard = ({ title, value, icon, trend, trendLabel, loading }: KPIC
         },
       }}
     >
-      <CardContent sx={{ p: 3 }}>CARDS
+      <CardContent sx={{ p: 3 }}>
         <Box sx={{ mb: 3 }}>
           <Typography
             variant="body2"
