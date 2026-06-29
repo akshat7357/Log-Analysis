@@ -2,9 +2,9 @@ import { NextResponse } from 'next/server';
 import type { KPICard } from '@/types/dashboard.types';
 
 const mockKPICards: KPICard[] = [
-  {
+   {
     id: '1',
-    title: 'Total Users',
+    title: 'Total Traces',
     value: 1240000,
     icon: 'People',
     trend: 12.5,
@@ -12,7 +12,7 @@ const mockKPICards: KPICard[] = [
   },
   {
     id: '2',
-    title: 'Active Sessions',
+    title: 'Resolved',
     value: 45280,
     icon: 'TrendingUp',
     trend: 8.2,
@@ -20,20 +20,20 @@ const mockKPICards: KPICard[] = [
   },
   {
     id: '3',
-    title: 'API Requests',
+    title: 'Active',
     value: 8920000,
     icon: 'Api',
     trend: -3.1,
     trendLabel: 'vs yesterday',
   },
-  {
-    id: '4',
-    title: 'Revenue',
-    value: 392000,
-    icon: 'AttachMoney',
-    trend: 15.8,
-    trendLabel: 'vs last month',
-  },
+{
+  id: '4',
+  title: 'Avg MTTR',
+  value: '<1 MN',
+  icon: 'AccessTime',
+  trend: 15.8,
+  trendLabel: 'vs last month',
+}
 ];
 
 export async function GET() {
