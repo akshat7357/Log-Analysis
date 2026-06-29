@@ -8,7 +8,7 @@ const mockData = {
   cards: [
     {
       id: '1',
-      title: 'Total Users1',
+      title: 'Total Users',
       value: 1240000,
       icon: 'People',
       trend: 12.5,

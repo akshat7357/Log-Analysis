@@ -12,7 +12,7 @@ import type { LogsResponse } from '@/types/logs.types';
 export const mockKPICards: KPICard[] = [
   {
     id: '1',
-    title: 'Total Users',
+    title: 'Total Traces',
     value: 1240000,
     icon: 'People',
     trend: 12.5,
@@ -20,7 +20,7 @@ export const mockKPICards: KPICard[] = [
   },
   {
     id: '2',
-    title: 'Active Sessions',
+    title: 'Resolved',
     value: 45280,
     icon: 'TrendingUp',
     trend: 8.2,
@@ -28,7 +28,7 @@ export const mockKPICards: KPICard[] = [
   },
   {
     id: '3',
-    title: 'API Requests',
+    title: 'Active',
     value: 8920000,
     icon: 'Api',
     trend: -3.1,
@@ -36,7 +36,7 @@ export const mockKPICards: KPICard[] = [
   },
   {
     id: '4',
-    title: 'Revenue',
+    title: 'AVg mtr',
     value: 392000,
     icon: 'AttachMoney',
     trend: 15.8,

@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { KPICard } from '@/types/dashboard.types';
 
-
 const mockKPICards: KPICard[] = [
    {
     id: '1',
@@ -36,6 +35,7 @@ const mockKPICards: KPICard[] = [
   trendLabel: 'vs last month',
 }
 ];
+
 export async function GET() {
   try {
     return NextResponse.json(mockKPICards);
