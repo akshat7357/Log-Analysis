@@ -35,7 +35,6 @@ const mockKPICards: KPICard[] = [
   trendLabel: 'vs last month',
 }
 ];
-
 export async function GET() {
   try {
     return NextResponse.json(mockKPICards);
