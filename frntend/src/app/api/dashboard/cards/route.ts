@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { KPICard } from '@/types/dashboard.types';
 
+
 const mockKPICards: KPICard[] = [
    {
     id: '1',
