@@ -1,7 +1,7 @@
 export interface KPICard {
   id: string;
   title: string;
-  value: number;
+  value: number| string;
   icon: string;
   trend?: number;
   trendLabel?: string;
