@@ -36,8 +36,8 @@ export const mockKPICards: KPICard[] = [
   },
   {
     id: '4',
-    title: 'AVg mtr',
-    value: 392000,
+    title: 'Avg MTTR',
+    value: '<1 MN',
     icon: 'AttachMoney',
     trend: 15.8,
     trendLabel: 'vs last month',
